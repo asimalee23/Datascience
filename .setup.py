@@ -27,5 +27,5 @@ setup(
     description="Data Science and Machine Learning project",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    install_requires=get_requirements("requirements.txt"),
+    install_requires=get_requirements("requirements"),
 )
